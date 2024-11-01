@@ -1,0 +1,13 @@
+a.toplink{
+    color: cyan;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+}
+
+
+a.toplink:hover{
+     color: crimson;
+     background-color: cornflowerblue;
+
+}

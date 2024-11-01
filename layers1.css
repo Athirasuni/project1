@@ -1,0 +1,31 @@
+.box1{
+    background-color:chocolate;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+
+}
+.box2{
+    background-color: chartreuse;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: 200;
+    opacity: .5;
+
+}
+
+.box3{
+    background-color: darkcyan;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+
+}
