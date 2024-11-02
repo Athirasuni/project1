@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+}
+
+.box1{
+    width: 30%;
+    float: left;
+}
+.box2{
+    width: 70%;
+    float: left;
+}
+    
+        
+
+
+    
+
+
+
+.inbox1{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkgreen; */
+}
+    
+    
+    
+
+.inbox2{
+    margin: 15px;
+    padding: 15px;
+    /* background-color:  darkgreen; */
+    text-align: right;
+}
+a.toplink{
+    color: black;
+    text-decoration: none;
+    padding:25px;
+    transition: 1s;
+}
+a.toplink:hover{
+    color: brown;
+    background-color: bisque;
+    
+}
+.box3{
+    width: 100%;
+    float: left;
+    
+    
+}
+.inbox3{
+    margin: 15px;
+    padding: 150px 0px; 
+    /* background-color: darkgrey; */
+    color: white;
+    text-align: center;
+}
+
+
+.main{
+    overflow: auto;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+        
+
+.box4,.box5 {
+    width: 50%;
+    float: left;
+}
+
+
+
+.inbox4{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkkhaki; */
+    height: 300px;
+    
+    
+}
+.inbox5{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkkhaki; */
+   height: 300px;
+}
+.sec2{
+    background-image:url(screen1.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.box6{
+    width: 100%;
+    float: left;
+}
+.inbox6{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkcyan; */
+    text-align: center;
+}
+
+.box7,.box8,.box9{
+    width: 33.33%;
+    float: left;
+}
+.inbox7{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkred; */
+    height: 300px;
+    text-align: center;
+    
+}
+.inbox8{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkred; */
+    height: 300px;
+    text-align: center;
+
+}
+.inbox9{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darkred; */
+    height: 300px;
+    text-align: center;
+}
+ .box10{
+    width: 100%;
+    float: left;
+ }
+ .inbox10{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: darksalmon; */
+    text-align: center;
+
+ }
+ .box11,.box12,.box13,.box14{
+    width:25%;
+    float: left;
+    
+
+ }
+ .inbox11{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: gold; */
+    height: 300px;
+
+ }
+ .inbox12{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: gold; */
+    height: 300px;
+
+ }
+ .inbox13{
+    margin: 15px;
+    padding: 15px;
+    /* background-color: gold; */
+    height: 300px;
+
+ }
+
+ .inbox14{
+    margin: 15px;
+    padding: 15px; 
+    /* background-color: gold; */
+    height: 300px;
+
+ }
+ .box15{
+    width: 100%;
+    float: left;
+
+ }
+ .inbox15{
+    margin: 15px;
+    padding: 150px 0px; 
+    /* background-color: darkslategray; */
+    /* height: 200px; */
+    color:white ;
+    text-align: center;
+
+ }
+.gototop{
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+ .sec6{
+    background-image:url(waterfall.jpg) ;
+    background-size: cover;
+ }
+.trans{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.trans{
+    background-color:rgba(0, 0, 0, 0.689) ;
+}
+
+
+
+ /*media query*/
+
+ /*tab screen*/
+  @media(max-width:768px){
+    .box1,.box2{
+        width: 100%
+
+        
+    }
+    .box3{
+        width: 100%;
+
+    }
+    .box4,.box5{
+        width: 100%;
+    }
+    .box6{
+        width:100% ;
+    }
+    .box7 ,.box8{
+        width: 50%;
+
+
+    }
+    .box9{
+        width: 100%;
+    }
+    .box10{
+        width: 100%;
+    }
+    .box11,.box12{
+        width: 50%;
+    }
+    .box13,.box14{
+        width: 50%;
+    }
+    .box15{
+        width: 100%;
+    }
+
+
+  }
+  
+  /*mobile screen*/ 
+  @media(max-width:468px){
+    .box1,.box2 ,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15{
+        width: 100%;
+
+    }
+    
+    
+  }
+  
+
+    
+  
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
